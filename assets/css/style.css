@@ -241,9 +241,6 @@ input[type=submit] {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 640px) {
-    body {
-         background: black;
-    }
     nav {
       float: left;
       margin: 10px 0px 10px 0px;
@@ -287,9 +284,6 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 768px) and (min-width: 641px){
-    body {
-         background: red;
-    }
     .container {
       max-width: 620px;
     }
@@ -303,9 +297,6 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 980px) and (min-width: 769px) {
-  body {
-    background: lightblue;
-  }
   .container {
     max-width: 980px;
     width: 95%;
